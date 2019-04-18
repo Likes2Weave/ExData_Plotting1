@@ -40,6 +40,6 @@ png(file = "plot2.png")
 ##  y axis labeled: "Global Active Power"
 ##  x axis ticks are days (default)
 
-plot(target_dates, type = "l", main = "", ylab="Global Active Power")
+plot(target_dates, type = "l", main = "", xlab="", ylab="Global Active Power")
 
 dev.off()  ## Close the png file device
